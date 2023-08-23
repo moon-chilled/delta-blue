@@ -1,0 +1,18 @@
+
+***** A Common Lisp Implementation of the Delta Blue algorithm *****
+
+delta-blue.lisp implements the Delta Blue incremental constraint
+satisfaction system using a constraint hierarchy with a
+local-predicate-better comparator.  This code was translated directly from
+the pseudocode in the appendix to UW CS TR 91-08-12 ``Using Constraints for
+User Interface Construction'' by John Maloney, using similar function and
+variable names.  Refer to the pseudocode for detailed comments.  This file
+contains comments where the code is changed significantly from the
+pseudocode.
+
+examples.lisp contains a few functions for constructing simple constraints,
+and some test programs.
+
+  ~~ Michael Sannella
+     December 19, 1991
+
